@@ -1,0 +1,262 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/neha/Documents/project code/hexofolder',
+5 verbose install   [ 'hexo-renderer-ejs',
+5 verbose install     'hexo-renderer-stylus',
+5 verbose install     'hexo-renderer-marked' ] ]
+6 info preinstall hexo-site@
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'hexo-renderer-stylus@*', null ]
+9 verbose cache add name=undefined spec="hexo-renderer-stylus@*" args=["hexo-renderer-stylus@*",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'hexo-renderer-stylus@*',
+10 verbose parsed url   path: 'hexo-renderer-stylus@*',
+10 verbose parsed url   href: 'hexo-renderer-stylus@*' }
+11 verbose cache add [ 'hexo-renderer-marked@*', null ]
+12 verbose cache add name=undefined spec="hexo-renderer-marked@*" args=["hexo-renderer-marked@*",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'hexo-renderer-marked@*',
+13 verbose parsed url   path: 'hexo-renderer-marked@*',
+13 verbose parsed url   href: 'hexo-renderer-marked@*' }
+14 verbose cache add [ 'hexo-renderer-ejs@*', null ]
+15 verbose cache add name=undefined spec="hexo-renderer-ejs@*" args=["hexo-renderer-ejs@*",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'hexo-renderer-ejs@*',
+16 verbose parsed url   path: 'hexo-renderer-ejs@*',
+16 verbose parsed url   href: 'hexo-renderer-ejs@*' }
+17 verbose cache add name="hexo-renderer-stylus" spec="*" args=["hexo-renderer-stylus","*"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '*',
+18 verbose parsed url   path: '*',
+18 verbose parsed url   href: '*' }
+19 verbose addNamed [ 'hexo-renderer-stylus', '*' ]
+20 verbose addNamed [ null, '*' ]
+21 verbose cache add name="hexo-renderer-marked" spec="*" args=["hexo-renderer-marked","*"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '*',
+22 verbose parsed url   path: '*',
+22 verbose parsed url   href: '*' }
+23 verbose addNamed [ 'hexo-renderer-marked', '*' ]
+24 verbose addNamed [ null, '*' ]
+25 verbose cache add name="hexo-renderer-ejs" spec="*" args=["hexo-renderer-ejs","*"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '*',
+26 verbose parsed url   path: '*',
+26 verbose parsed url   href: '*' }
+27 verbose addNamed [ 'hexo-renderer-ejs', '*' ]
+28 verbose addNamed [ null, '*' ]
+29 silly lockFile c34a33e1-hexo-renderer-stylus hexo-renderer-stylus@*
+30 verbose lock hexo-renderer-stylus@* /Users/neha/.npm/c34a33e1-hexo-renderer-stylus.lock
+31 silly lockFile 377509ff-hexo-renderer-marked hexo-renderer-marked@*
+32 verbose lock hexo-renderer-marked@* /Users/neha/.npm/377509ff-hexo-renderer-marked.lock
+33 silly lockFile b3653f8d-hexo-renderer-ejs hexo-renderer-ejs@*
+34 verbose lock hexo-renderer-ejs@* /Users/neha/.npm/b3653f8d-hexo-renderer-ejs.lock
+35 silly addNameRange { name: 'hexo-renderer-stylus', range: '*', hasData: false }
+36 silly addNameRange { name: 'hexo-renderer-marked', range: '*', hasData: false }
+37 silly addNameRange { name: 'hexo-renderer-ejs', range: '*', hasData: false }
+38 verbose request where is /hexo-renderer-stylus
+39 verbose request registry https://registry.npmjs.org/
+40 verbose request id 7f7904479fd85661
+41 verbose url raw /hexo-renderer-stylus
+42 verbose url resolving [ 'https://registry.npmjs.org/', './hexo-renderer-stylus' ]
+43 verbose url resolved https://registry.npmjs.org/hexo-renderer-stylus
+44 verbose request where is https://registry.npmjs.org/hexo-renderer-stylus
+45 info trying registry request attempt 1 at 15:31:24
+46 http GET https://registry.npmjs.org/hexo-renderer-stylus
+47 verbose request where is /hexo-renderer-marked
+48 verbose request registry https://registry.npmjs.org/
+49 verbose url raw /hexo-renderer-marked
+50 verbose url resolving [ 'https://registry.npmjs.org/', './hexo-renderer-marked' ]
+51 verbose url resolved https://registry.npmjs.org/hexo-renderer-marked
+52 verbose request where is https://registry.npmjs.org/hexo-renderer-marked
+53 info trying registry request attempt 1 at 15:31:24
+54 http GET https://registry.npmjs.org/hexo-renderer-marked
+55 verbose request where is /hexo-renderer-ejs
+56 verbose request registry https://registry.npmjs.org/
+57 verbose url raw /hexo-renderer-ejs
+58 verbose url resolving [ 'https://registry.npmjs.org/', './hexo-renderer-ejs' ]
+59 verbose url resolved https://registry.npmjs.org/hexo-renderer-ejs
+60 verbose request where is https://registry.npmjs.org/hexo-renderer-ejs
+61 info trying registry request attempt 1 at 15:31:24
+62 http GET https://registry.npmjs.org/hexo-renderer-ejs
+63 http 200 https://registry.npmjs.org/hexo-renderer-stylus
+64 silly registry.get cb [ 200,
+64 silly registry.get   { date: 'Wed, 26 Nov 2014 10:01:25 GMT',
+64 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+64 silly registry.get     etag: '"8XFRBGQNN0GNZFTDPSD6ETOOT"',
+64 silly registry.get     'content-type': 'application/json',
+64 silly registry.get     'cache-control': 'max-age=60',
+64 silly registry.get     'content-length': '4447',
+64 silly registry.get     'accept-ranges': 'bytes',
+64 silly registry.get     via: '1.1 varnish',
+64 silly registry.get     age: '0',
+64 silly registry.get     'x-served-by': 'cache-sn89-SIN',
+64 silly registry.get     'x-cache': 'MISS',
+64 silly registry.get     'x-cache-hits': '0',
+64 silly registry.get     'x-timer': 'S1416996085.202196,VS0,VE200',
+64 silly registry.get     vary: 'Accept',
+64 silly registry.get     'keep-alive': 'timeout=10, max=50',
+64 silly registry.get     connection: 'Keep-Alive' } ]
+65 silly addNameRange number 2 { name: 'hexo-renderer-stylus', range: '*', hasData: true }
+66 silly addNameRange versions [ 'hexo-renderer-stylus', [ '0.0.1', '0.0.2', '0.1.0' ] ]
+67 verbose addNamed [ 'hexo-renderer-stylus', '0.1.0' ]
+68 verbose addNamed [ '0.1.0', '0.1.0' ]
+69 silly lockFile 9c768714-hexo-renderer-stylus-0-1-0 hexo-renderer-stylus@0.1.0
+70 verbose lock hexo-renderer-stylus@0.1.0 /Users/neha/.npm/9c768714-hexo-renderer-stylus-0-1-0.lock
+71 silly lockFile 9ba22756-s-hexo-renderer-stylus-0-1-0-tgz https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-0.1.0.tgz
+72 verbose lock https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-0.1.0.tgz /Users/neha/.npm/9ba22756-s-hexo-renderer-stylus-0-1-0-tgz.lock
+73 verbose addRemoteTarball [ 'https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-0.1.0.tgz',
+73 verbose addRemoteTarball   '79b48c775949788cf886f7a1f6fdd009d5dafb1b' ]
+74 info retry fetch attempt 1 at 15:31:25
+75 verbose fetch to= /var/folders/pz/kmlkw24s2zv4f4y_tht8njb80000gn/T/npm-9685-n3raJhQ7/registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-0.1.0.tgz
+76 http GET https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-0.1.0.tgz
+77 http 200 https://registry.npmjs.org/hexo-renderer-marked
+78 silly registry.get cb [ 200,
+78 silly registry.get   { date: 'Wed, 26 Nov 2014 10:01:25 GMT',
+78 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+78 silly registry.get     etag: '"9S4A5A5QFCC32Z5S8IVWG20DD"',
+78 silly registry.get     'content-type': 'application/json',
+78 silly registry.get     'cache-control': 'max-age=60',
+78 silly registry.get     'content-length': '3302',
+78 silly registry.get     'accept-ranges': 'bytes',
+78 silly registry.get     via: '1.1 varnish',
+78 silly registry.get     age: '0',
+78 silly registry.get     'x-served-by': 'cache-sn87-SIN',
+78 silly registry.get     'x-cache': 'MISS',
+78 silly registry.get     'x-cache-hits': '0',
+78 silly registry.get     'x-timer': 'S1416996085.383015,VS0,VE198',
+78 silly registry.get     vary: 'Accept',
+78 silly registry.get     'keep-alive': 'timeout=10, max=50',
+78 silly registry.get     connection: 'Keep-Alive' } ]
+79 silly addNameRange number 2 { name: 'hexo-renderer-marked', range: '*', hasData: true }
+80 silly addNameRange versions [ 'hexo-renderer-marked', [ '0.1.0' ] ]
+81 verbose addNamed [ 'hexo-renderer-marked', '0.1.0' ]
+82 verbose addNamed [ '0.1.0', '0.1.0' ]
+83 silly lockFile f81ed510-hexo-renderer-marked-0-1-0 hexo-renderer-marked@0.1.0
+84 verbose lock hexo-renderer-marked@0.1.0 /Users/neha/.npm/f81ed510-hexo-renderer-marked-0-1-0.lock
+85 silly lockFile 45896a3e-d-hexo-renderer-marked-0-1-0-tgz https://registry.npmjs.org/hexo-renderer-marked/-/hexo-renderer-marked-0.1.0.tgz
+86 verbose lock https://registry.npmjs.org/hexo-renderer-marked/-/hexo-renderer-marked-0.1.0.tgz /Users/neha/.npm/45896a3e-d-hexo-renderer-marked-0-1-0-tgz.lock
+87 verbose addRemoteTarball [ 'https://registry.npmjs.org/hexo-renderer-marked/-/hexo-renderer-marked-0.1.0.tgz',
+87 verbose addRemoteTarball   '98f746a58ef46da494e6819d85fca03ee1ae8380' ]
+88 info retry fetch attempt 1 at 15:31:25
+89 verbose fetch to= /var/folders/pz/kmlkw24s2zv4f4y_tht8njb80000gn/T/npm-9685-n3raJhQ7/registry.npmjs.org/hexo-renderer-marked/-/hexo-renderer-marked-0.1.0.tgz
+90 http GET https://registry.npmjs.org/hexo-renderer-marked/-/hexo-renderer-marked-0.1.0.tgz
+91 http 200 https://registry.npmjs.org/hexo-renderer-ejs
+92 silly registry.get cb [ 200,
+92 silly registry.get   { date: 'Wed, 26 Nov 2014 10:01:26 GMT',
+92 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+92 silly registry.get     etag: '"2VIX5JST1YK9Z3TKHY2REKSD"',
+92 silly registry.get     'content-type': 'application/json',
+92 silly registry.get     'cache-control': 'max-age=60',
+92 silly registry.get     'content-length': '2951',
+92 silly registry.get     'accept-ranges': 'bytes',
+92 silly registry.get     via: '1.1 varnish',
+92 silly registry.get     age: '0',
+92 silly registry.get     'x-served-by': 'cache-sn89-SIN',
+92 silly registry.get     'x-cache': 'MISS',
+92 silly registry.get     'x-cache-hits': '0',
+92 silly registry.get     'x-timer': 'S1416996085.244469,VS0,VE1017',
+92 silly registry.get     vary: 'Accept',
+92 silly registry.get     'keep-alive': 'timeout=10, max=50',
+92 silly registry.get     connection: 'Keep-Alive' } ]
+93 silly addNameRange number 2 { name: 'hexo-renderer-ejs', range: '*', hasData: true }
+94 silly addNameRange versions [ 'hexo-renderer-ejs', [ '0.0.1', '0.1.0' ] ]
+95 verbose addNamed [ 'hexo-renderer-ejs', '0.1.0' ]
+96 verbose addNamed [ '0.1.0', '0.1.0' ]
+97 silly lockFile 0f6f2d2c-hexo-renderer-ejs-0-1-0 hexo-renderer-ejs@0.1.0
+98 verbose lock hexo-renderer-ejs@0.1.0 /Users/neha/.npm/0f6f2d2c-hexo-renderer-ejs-0-1-0.lock
+99 silly lockFile da18a823--ejs-hexo-renderer-ejs-0-1-0-tgz https://registry.npmjs.org/hexo-renderer-ejs/-/hexo-renderer-ejs-0.1.0.tgz
+100 verbose lock https://registry.npmjs.org/hexo-renderer-ejs/-/hexo-renderer-ejs-0.1.0.tgz /Users/neha/.npm/da18a823--ejs-hexo-renderer-ejs-0-1-0-tgz.lock
+101 verbose addRemoteTarball [ 'https://registry.npmjs.org/hexo-renderer-ejs/-/hexo-renderer-ejs-0.1.0.tgz',
+101 verbose addRemoteTarball   '4d59b4232f3910e9cab052d8dd7c854876889bd2' ]
+102 info retry fetch attempt 1 at 15:31:26
+103 verbose fetch to= /var/folders/pz/kmlkw24s2zv4f4y_tht8njb80000gn/T/npm-9685-n3raJhQ7/registry.npmjs.org/hexo-renderer-ejs/-/hexo-renderer-ejs-0.1.0.tgz
+104 http GET https://registry.npmjs.org/hexo-renderer-ejs/-/hexo-renderer-ejs-0.1.0.tgz
+105 http 200 https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-0.1.0.tgz
+106 silly lockFile 9ba22756-s-hexo-renderer-stylus-0-1-0-tgz https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-0.1.0.tgz
+107 silly lockFile 9ba22756-s-hexo-renderer-stylus-0-1-0-tgz https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-0.1.0.tgz
+108 silly lockFile 9c768714-hexo-renderer-stylus-0-1-0 hexo-renderer-stylus@0.1.0
+109 silly lockFile 9c768714-hexo-renderer-stylus-0-1-0 hexo-renderer-stylus@0.1.0
+110 silly lockFile c34a33e1-hexo-renderer-stylus hexo-renderer-stylus@*
+111 silly lockFile c34a33e1-hexo-renderer-stylus hexo-renderer-stylus@*
+112 http 200 https://registry.npmjs.org/hexo-renderer-marked/-/hexo-renderer-marked-0.1.0.tgz
+113 silly lockFile 45896a3e-d-hexo-renderer-marked-0-1-0-tgz https://registry.npmjs.org/hexo-renderer-marked/-/hexo-renderer-marked-0.1.0.tgz
+114 silly lockFile 45896a3e-d-hexo-renderer-marked-0-1-0-tgz https://registry.npmjs.org/hexo-renderer-marked/-/hexo-renderer-marked-0.1.0.tgz
+115 silly lockFile f81ed510-hexo-renderer-marked-0-1-0 hexo-renderer-marked@0.1.0
+116 silly lockFile f81ed510-hexo-renderer-marked-0-1-0 hexo-renderer-marked@0.1.0
+117 silly lockFile 377509ff-hexo-renderer-marked hexo-renderer-marked@*
+118 silly lockFile 377509ff-hexo-renderer-marked hexo-renderer-marked@*
+119 http 400 https://registry.npmjs.org/hexo-renderer-ejs/-/hexo-renderer-ejs-0.1.0.tgz
+120 error fetch failed https://registry.npmjs.org/hexo-renderer-ejs/-/hexo-renderer-ejs-0.1.0.tgz
+121 silly lockFile da18a823--ejs-hexo-renderer-ejs-0-1-0-tgz https://registry.npmjs.org/hexo-renderer-ejs/-/hexo-renderer-ejs-0.1.0.tgz
+122 silly lockFile da18a823--ejs-hexo-renderer-ejs-0-1-0-tgz https://registry.npmjs.org/hexo-renderer-ejs/-/hexo-renderer-ejs-0.1.0.tgz
+123 silly lockFile 0f6f2d2c-hexo-renderer-ejs-0-1-0 hexo-renderer-ejs@0.1.0
+124 silly lockFile 0f6f2d2c-hexo-renderer-ejs-0-1-0 hexo-renderer-ejs@0.1.0
+125 silly lockFile b3653f8d-hexo-renderer-ejs hexo-renderer-ejs@*
+126 silly lockFile b3653f8d-hexo-renderer-ejs hexo-renderer-ejs@*
+127 error Error: 400 Bad Request
+127 error     at WriteStream.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/fetch.js:58:12)
+127 error     at WriteStream.emit (events.js:117:20)
+127 error     at evalmachine.<anonymous>:1609:14
+127 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+127 error     at Object.oncomplete (evalmachine.<anonymous>:107:15)
+128 error If you need help, you may report this *entire* log,
+128 error including the npm and node versions, at:
+128 error     <http://github.com/npm/npm/issues>
+129 error System Darwin 13.4.0
+130 error command "node" "/usr/local/bin/npm" "install"
+131 error cwd /Users/neha/Documents/project code/hexofolder
+132 error node -v v0.10.33
+133 error npm -v 1.4.28
+134 verbose exit [ 1, true ]
