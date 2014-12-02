@@ -1,7 +1,9 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
+  About: http://ashaimpact.com/#about
+  Team: http://ashaimpact.com/#team
+  Initiatives: http://ashaimpact.com/#initiatives
+  Contact: http://ashaimpact.com/#contact
   Blog: /blog-page
 rss: /atom.xml
 
